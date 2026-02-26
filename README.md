@@ -44,10 +44,6 @@ To initiate the fine-tuning process, run the training script:
 
     python bert.py
 
-* **Optimizer:** AdamW (`lr=5e-5`)
-* **Precision:** Automatic Mixed Precision (FP16) via `accelerate`
-* **Checkpointing:** The model and tokenizer are saved locally (e.g., to the root directory or `Bert_QA/`) every 5 epochs and at the end of training.
-
 ### Inference
 *(Assuming `test.py` is configured for prediction)*
 After training, you can use the saved weights to run predictions on new context-question pairs using the `test.py` script.
