@@ -28,7 +28,7 @@ This model is trained on the **CMRC2018** (Chinese Machine Reading Comprehension
 * Ensure you have the dataset files (`cmrc2018_train.json` and `cmrc2018_dev.json`) downloaded locally.
 * Update the file paths in `bert.py` to point to your local dataset directory before training.
 
-## 🛠️ Requirements
+## Requirements
 
 Ensure you have the following dependencies installed:
 
