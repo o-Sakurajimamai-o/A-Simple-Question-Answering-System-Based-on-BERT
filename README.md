@@ -3,3 +3,5 @@
 Based on cmrc2018 dataset, [here](https://github.com/ymcui/cmrc2018/tree/master/data) is the data
 
 Pretrained model is "bert-base-chinese" from BertTokenizerFast
+
+run the Bert.py and use the test.py to predict
