@@ -1,0 +1,4 @@
+*.safetensors
+*.bin
+*.pth
+*.h5
